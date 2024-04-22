@@ -2,7 +2,7 @@
 nodejs proxy server
 
 ```js
-import { createProxy } from './proxy-lib.mjs';
+import { createProxy } from 'proxy-lib';
 
 const proxy = createProxy({
     host: '127.0.0.1',
