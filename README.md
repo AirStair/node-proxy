@@ -1,6 +1,6 @@
 ![proxy-lib](icon.png "proxy-lib")
 
-# node-proxy
+# node-proxy-lib
 nodejs proxy server
 
 ```sh
