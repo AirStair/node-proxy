@@ -3,6 +3,10 @@
 # node-proxy
 nodejs proxy server
 
+```sh
+npm i node-proxy-lib
+```
+
 ```js
 import { createProxy } from 'proxy-lib';
 
