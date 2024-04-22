@@ -1,7 +1,7 @@
 # node-proxy
 nodejs proxy server
 
-```
+```js
 import { createProxy } from './proxy-lib.mjs';
 
 const proxy = createProxy({
