@@ -1,7 +1,7 @@
 # node-proxy
 nodejs proxy server
 
-`
+```
 import { createProxy } from './proxy-lib.mjs';
 
 const proxy = createProxy({
@@ -21,5 +21,4 @@ proxy([
         port: 8081
     }
 ]);
-
-`
+```
