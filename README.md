@@ -1,30 +1,27 @@
-![proxy-lib](icon.png "proxy-lib")
+![node-proxy-lib](icon.png "node-proxy-lib")
 
 # node-proxy-lib
-nodejs proxy server
+node.js proxy server
 
-```sh
+```
 npm i node-proxy-lib
 ```
 
 ```js
 import { createProxy } from 'node-proxy-lib';
 
-const proxy = createProxy({
-    host: '127.0.0.1',
-    port: 3030
-});
+const proxy = createProxy();
 
 proxy([
     {
-        pattern: /\/ssr\/.*/,
-        host: '127.0.0.1',
-        port: 8080
-    },
-    {
-        pattern: /\/gateway\/.+/,
+        pattern: /(?<path>api\/.+)/,
         host: '127.0.0.1',
         port: 8081
+    },
+    {
+        pattern: /(?<path>.+)/,
+        host: '127.0.0.1',
+        port: 8080
     }
 ]);
 ```
