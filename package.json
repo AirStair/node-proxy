@@ -2,7 +2,7 @@
   "name": "proxy-lib",
   "version": "1.0.0",
   "description": "Node.js proxy",
-  "keywords": ["node", "proxy", "native", "one file"]
+  "keywords": ["node", "proxy", "native", "one file"],
   "repository": {
     "type": "git",
     "url": "https://github.com/AirStair/proxy-lib"
