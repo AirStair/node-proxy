@@ -8,7 +8,7 @@ npm i node-proxy-lib
 ```
 
 ```js
-import { createProxy } from 'proxy-lib';
+import { createProxy } from 'node-proxy-lib';
 
 const proxy = createProxy({
     host: '127.0.0.1',
