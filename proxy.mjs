@@ -1,15 +1,18 @@
 import { createProxy } from './proxy-lib.mjs';
 
-const proxy = createProxy();
+const proxy = createProxy({
+    host: '127.0.0.1',
+    port: 3030
+});
 
 proxy([
     {
-        pattern: /\/ssr\//,
+        pattern: /\/ssr\/.*/,
         host: '127.0.0.1',
         port: 8080
     },
     {
-        pattern: /\/gateway\//,
+        pattern: /\/gateway\/.+/,
         host: '127.0.0.1',
         port: 8081
     }
