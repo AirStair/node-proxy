@@ -1,0 +1,15 @@
+{
+  "name": "proxy-lib",
+  "version": "1.0.0",
+  "description": "Node.js proxy",
+  "author": {
+    "name": "AirStair",
+    "email": "my.2012@yandex.ru",
+    "url": "https://github.com/AirStair"
+  },
+  "main": "index.mjs",
+  "type": "module",
+  "engines": {
+    "node": "18.20.2"
+  }
+}
